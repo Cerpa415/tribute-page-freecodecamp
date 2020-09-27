@@ -1,0 +1,123 @@
+ 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    line-height: 1.4em;
+    
+}
+h5 {
+    color: black;
+}
+h4 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+#main-header {
+    background-color: black;
+    width: 100% ;
+    left: 0;
+    top: 0;
+    height: 90px;
+}
+#position-icon {
+    position: relative;
+    top: 3.8em;
+    right:4.4em ;
+}
+#main { 
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 5em;
+    bottom: 3em;
+     }
+
+.button {
+    background-color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 9.9em;
+    bottom: 2.2em;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+        }
+
+.button-2 {
+    background-color: lightslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 84.2em;
+    bottom: 3.3em;
+    border-radius: 10px;
+    width: 5em;
+    height: 4em;
+        }
+
+.button-3 {
+    background-color: lightslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 72em;
+    bottom: 3.3em;
+    border-radius: 10px ;
+    width: 5em;
+    height: 4em;
+          }
+          
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    }       
+#img-div { 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    
+}
+.larger-image {
+    width: 40em;
+}
+#image { 
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
+#img-caption {
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+             }
+.lightgray-background {
+    background-color: lightgray;
+}
+.black-background {
+    background-color: black;
+}
+#tribute-info {
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: justify
+ font-size: 17px;
+ margin-left: 50px;
+}
+#atribute-link {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    background-color:black ;
+}
+@media (max-width: 700px) {
+   .larger-image {
+       width: 27em;
+   }
+   .height-image {
+       height: 27em ;
+   }
+}
